@@ -10,8 +10,8 @@ OUTPUT_DIR: "output/centermask/CenterMask-V-39-ms-3x"
 DATASETS:
   TRAIN: ("path_train",)
   TEST: ("path_val",)
-  SOLVER:
-CHECKPOINT_PERIOD: 1000 #10000
+SOLVER:
+  CHECKPOINT_PERIOD: 1000 #10000
   IMS_PER_BATCH: 2 #16
   BASE_LR: 0.0005  # Note that RetinaNet uses a different default learning rate
   STEPS: (60000, 80000)
