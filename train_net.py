@@ -154,12 +154,12 @@ if __name__ == "__main__":
     from detectron2.data.datasets import register_coco_instances
     # train data
     name        = "path_train"
-    json_file   = "/content/centermask2/datasets/coco/annotations/instances_train2017.json"
-    image_root  = "/content/centermask2/datasets/coco/images/train2017"
+    json_file   = "./centermask2/datasets/coco/annotations/train_anno.json"
+    image_root  = "./centermask2/datasets/coco/images/train"
     # test data
     name_val        = "path_val"
-    json_file_val   = "/content/centermask2/datasets/coco/annotations/instances_val2017.json"
-    image_root_val  = "/content/centermask2/datasets/coco/images/val2017"
+    json_file_val   = "./centermask2/datasets/coco/annotations/val_anno.json"
+    image_root_val  = "./centermask2/datasets/coco/images/val"
     #registr -- ilk çağrıldığında kullan
     register_coco_instances(name, {}, json_file, image_root)
     register_coco_instances(name_val, {}, json_file_val, image_root_val)
