@@ -1,0 +1,1 @@
+train resimlerini ekle
