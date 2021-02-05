@@ -1,0 +1,1 @@
+val görüntülerini ekle
